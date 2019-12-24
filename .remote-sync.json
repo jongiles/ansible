@@ -1,0 +1,19 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "192.168.1.200",
+  "port": "22",
+  "target": "ansible",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "ansible-user",
+  "password": "evri_5_m",
+  "watch": [],
+  "transport": "scp"
+}
